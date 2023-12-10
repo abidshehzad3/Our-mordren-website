@@ -6,12 +6,16 @@ header {
         color: #fff;
         padding: 1em;
         margin: 40px;
-        
+        margin-top: 30px;
         
 }
 
+img{
+  margin-top: 75px;
+}
 #navigation{
     margin-left: 900px;
+    margin-bottom: 75px;
     
 
     
@@ -28,6 +32,7 @@ a{
     color: white;
 }
 h1{
+font-size: xx-large;
  
 }
 
@@ -45,22 +50,32 @@ h1{
 }
 h3{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
+
+
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .column {
-    width: 33%;
-    margin-bottom: 20px;
+    /* width: 33%;
+    margin-bottom: 20px; */
     text-align: center;
-    border: 1px solid black;
-    background-color: wheat;
-  }
+    /* border: 1px solid black;
+    background-color: wheat; */
+     
+      width: 230px;
+      float: right;
+      margin: 5px;
+      padding: 5px;
+      background-color: #efefef;
+      overflow: auto;
+    }
+  
   
   .column img {
     max-width: 100%;
